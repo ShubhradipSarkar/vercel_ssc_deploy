@@ -1,0 +1,190 @@
+/* body{
+    margin:0
+    
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+    background-color: aqua;
+
+} */
+.me-auto{
+  margin-left: 10%;
+}
+
+.nav{
+    background-color: rgb(47, 255, 186);
+}
+.name{
+    margin-left: 20px;
+}
+.navElements{
+    
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.peeps{
+    display:flex;
+    flex-direction: row;
+}
+.peepgroup{
+    display: flex;
+    flex-direction: column; 
+}
+.people
+{
+  /* justify-content: center;
+  align-items: center; */
+   width: 20%;
+   
+   
+   
+   margin: 2%;
+   background: #f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+}
+.slide{
+  justify-content: center;
+  box-shadow: 2px 2px black;
+  border-radius: 15px;
+  margin-left: 25%;
+  margin-top: 10px;
+  width:50%
+  
+  
+}
+.img{
+  width:50%;
+  margin:25%;
+  border-radius: 20px;
+}
+
+.hello{
+  margin-left: 33.3333%;
+}
+.span{
+  color: green;
+}
+.card-name{
+  font-size: 12px;
+  font-weight: bolder;
+  margin-left: 5%;
+}
+.card-desig{
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 5%;
+  color: green;
+}
+.leafy{
+  display: flex;
+  flex-direction: row;
+}
+.leafx{
+  
+  flex-direction: row;
+}
+
+.leaf{
+  width: 8%;
+  height: 8%;
+}
+
+.form{
+  margin-inline: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.loginform{
+  margin-top: 5%;
+  width: 350px;
+  /* box-sizing: border-box;
+  
+  box-shadow: 3px 3px 3px black; */
+  
+}
+.login-label{
+  font-weight: bolder;
+}
+.logintext{
+
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.orsignup{
+  margin-bottom: 20px;
+}
+
+.login {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.login > input {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}
+
+.login > .button {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.errmsg{
+  color: rgb(247, 7, 59);
+}
+
+.nameatfront{
+  /* margin-left: 80%; */
+  color:rgb(26, 122, 7);
+}
