@@ -49,10 +49,10 @@ function Navbar1(props) {
      </button>
      
  </Link>
- <h3 className='nameatfront'>Hello {userName} !</h3>
+ 
           </Nav>
           </Navbar.Collapse>
-          
+          <h3 className='nameatfront'>Hello {userName} !</h3>
         </Container>
       </Navbar>
       
