@@ -5,9 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Uapp from './components/Uapp';
+import { AppProvider } from './context/Peopledata';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Uapp/>
+  <AppProvider>
+    <Uapp/>
+  </AppProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -5,7 +5,7 @@ import Join from './Join'
 import LoginName from './LoginName'
 function OurPurpose(){
     return(
-        <div>
+        <div style={{backgroundColor:"#DCEDC8"}}>
             <Navbar1/>
             {/* <LoginName/> */}
             {/* <Join/> */}

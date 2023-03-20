@@ -4,15 +4,19 @@ import Form from 'react-bootstrap/Form';
 import Navbar1 from './Navbar';
 import Footer from './Footer';
 import LoginName from './LoginName';
+import skybg from '../../src/images/pgbg.jpg';
 function Join(){
+    
     return(
-        <div>
+        <div style={{backgroundColor:"#DCEDC8"}}>
             <Navbar1/>
             {/* <LoginName/> */}
+            <div >
+
             <Form className="form">
                 <center>
                 <Form.Text className="text-muted">
-                We'll never share your datails with anyone else.
+                We'll never share your details with anyone else.
                 </Form.Text>
                 </center>
                 <form action="https://formsubmit.co/el/tiwame" method="POST" />
@@ -22,7 +26,7 @@ function Join(){
                 
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicEmail" action="shubhradipsarkar@gmail.com" method="post" enctype="text/plain">
                 <Form.Label>Guardian's Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter Guardian's Name" />
                 
@@ -82,6 +86,7 @@ function Join(){
                 Submit
             </Button>
             </Form>
+            </div>
             <Footer/>
         </div>
     )

@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.bghome{
+  
+    background-image: 
+    url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+    background-size: "cover";
+    height: 100vh;
+    margin-top: -70px;
+    font-size:50px;
+    background-repeat:no-repeat; 
+  
+}

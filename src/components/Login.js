@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import { useNavigate} from "react-router-dom";
 import { signInWithEmailAndPassword} from 'firebase/auth';
 import {auth} from './firebase';
-
+import skybg from '../../src/images/pgbg.jpg';
 function Login(){
     
     const [user, setUser]=useState({
@@ -60,11 +60,11 @@ function Login(){
     }
     return(
         
-        <div>
+        <div >
             {console.log(user)}
             <center>
 
-            <Form className="loginform">
+            {/* <Form className="loginform">
                 <center>
                 <h3 className='logintext'>Sign In</h3>
                 </center>
@@ -78,8 +78,30 @@ function Login(){
             <center><b className='errmsg'>{errorMSG } </b></center>
             <Button variant="primary" type="submit" onClick={loginf}>
                 Submit
-            </Button>
-            </Form>
+            </Button> */}
+
+            {/* //////////////////////////////////////////// */}
+
+            <div class="box">
+  <h2>Login</h2>
+  <form>
+    <div class="inputBox">
+      <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);" value=""/>
+      <label>Username</label>
+    </div>
+    <div class="inputBox">
+      <input type="password" name="password" required value=""
+             onkeyup="this.setAttribute('value', this.value);"
+             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"/>
+      <label>Password</label>
+    </div>
+    <input type="submit" name="sign-in" value="Sign In"/>
+  </form>
+</div>
+
+            {/* //////////////////////////////////////////// */}
+            {/* </Form> */}
         </center>
             
         </div>
