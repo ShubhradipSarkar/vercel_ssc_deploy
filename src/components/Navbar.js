@@ -64,7 +64,6 @@ function Navbar1(props) {
             {/* <Link to="/join" className="navElements"><Button type="button" variant="info" className="navElements"><center>Join </center></Button></Link>
             <Link to="/donate" className="navElements"><Button type="button" variant="info" className="navElements"><center>Donate</center></Button></Link> */}
             {/* <Button href="/login" className="navElements">sign in</Button> */}
-<<<<<<< HEAD
             {/* <Link to="/login" className="navElements"><Button type="button" variant="primary" className="navElements"><center>Login</center></Button></Link> */}
             <Link to="/about" className="navElements"><Button type="button" variant="primary" className='w-100'>সংক্ষিপ্ত পরিচয় <br/> ABOUT US</Button></Link>
             <Link to="" className="navElements"><div className="w-100"><Movement /></div></Link>
@@ -81,18 +80,9 @@ function Navbar1(props) {
             
             
             
-=======
-            <Link to="/login">
-     <button type="button" className="navElements">
-          Sign in
-     </button>
-     
- </Link>
- 
->>>>>>> 02e2fecbbd68b8ca3694f045e91d48aee0859861
           </Nav>
           </Navbar.Collapse>
-          <h3 className='nameatfront'>Hello {userName} !</h3>
+          {/* <h3 className='nameatfront'>Hello {userName} !</h3> */}
         </Container>
         
       </Navbar>
