@@ -40,7 +40,7 @@ const ContactForm = () => {
     <div className='ContactForm'>
       <div className='container'>
         <div className='row d-flex flex-column flex-lg-row align-items-center'>
-          <div className="col-6 d-flex justify-center flex-column align-items-center ">
+          <div className="col-5 d-flex justify-center flex-column align-items-center ">
             <center>
              <h2 style={{color:"white"}}>Address</h2>
              <p style={{color:"white"}}>Tapati Bhawan <br/> 12/1 Gourhari Thakur Lane<br/> Duttapara<br/> po+ps-Santipur <br/>Nadia, Pin-741404</p>

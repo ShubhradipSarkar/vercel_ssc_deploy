@@ -349,3 +349,11 @@ body {
   border: 2px solid #ffffff;
   border-radius: 13px;
 }
+
+.col-5{
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  height: 300px;
+  padding: 50px;
+  border-radius: 20px;
+}
