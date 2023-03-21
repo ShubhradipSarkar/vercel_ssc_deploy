@@ -64,7 +64,7 @@ function Login(){
             {console.log(user)}
             <center>
 
-            {/* <Form className="loginform">
+            <Form className="loginform">
                 <center>
                 <h3 className='logintext'>Sign In</h3>
                 </center>
@@ -78,11 +78,11 @@ function Login(){
             <center><b className='errmsg'>{errorMSG } </b></center>
             <Button variant="primary" type="submit" onClick={loginf}>
                 Submit
-            </Button> */}
+            </Button>
 
             {/* //////////////////////////////////////////// */}
 
-            <div class="box">
+            {/* <div class="box">
   <h2>Login</h2>
   <form>
     <div class="inputBox">
@@ -98,10 +98,10 @@ function Login(){
     </div>
     <input type="submit" name="sign-in" value="Sign In"/>
   </form>
-</div>
+</div> */}
 
             {/* //////////////////////////////////////////// */}
-            {/* </Form> */}
+            </Form>
         </center>
             
         </div>

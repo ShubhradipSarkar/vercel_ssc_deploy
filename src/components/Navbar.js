@@ -63,7 +63,7 @@ function Navbar1(props) {
             {/* <Link to="/purpose" className="navElements"><Button type="button" variant="info" className="navElements"><center>Purpose</center></Button></Link> */}
             {/* <Link to="/join" className="navElements"><Button type="button" variant="info" className="navElements"><center>Join </center></Button></Link>
             <Link to="/donate" className="navElements"><Button type="button" variant="info" className="navElements"><center>Donate</center></Button></Link> */}
-            {/* <Button href="/login" className="navElements">sign in</Button> */}
+            
             {/* <Link to="/login" className="navElements"><Button type="button" variant="primary" className="navElements"><center>Login</center></Button></Link> */}
             <Link to="/about" className="navElements"><Button type="button" variant="primary" className='w-100'>সংক্ষিপ্ত পরিচয় <br/> ABOUT US</Button></Link>
             <Link to="" className="navElements"><div className="w-100"><Movement /></div></Link>
@@ -86,7 +86,7 @@ function Navbar1(props) {
         </Container>
         
       </Navbar>
-      <div className='nameatfront'><center><h4 className='nameofnav'>Hello {userName}</h4></center></div>
+      <div className='nameatfront'><h4 className='nameofnav'>Hello {userName}</h4> <Button href="/login" className="signbutton">sign in</Button> </div>
       
     </div>
   );

@@ -225,8 +225,13 @@ body {
 .nameatfront{
   /* margin-left: 80%; */
   
-  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
   color:rgb(254, 255, 254);
+}
+.signbutton{
+  position: absolute;
+  right: 0;
 }
 .nameofnav{
   padding: 3px;
