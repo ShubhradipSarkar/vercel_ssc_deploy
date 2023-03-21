@@ -41,8 +41,10 @@ const ContactForm = () => {
       <div className='container'>
         <div className='row d-flex flex-column flex-lg-row align-items-center'>
           <div className="col-6 d-flex justify-center flex-column align-items-center ">
+            <center>
              <h2 style={{color:"white"}}>Address</h2>
-             <p style={{color:"white"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odio reiciendis rerum, fuga quod, dicta ab sequi, voluptatibus nesciunt magni maiores quisquam fugiat at voluptas illo aut laborum eius! Culpa?</p>
+             <p style={{color:"white"}}>Tapati Bhawan <br/> 12/1 Gourhari Thakur Lane<br/> Duttapara<br/> po+ps-Santipur <br/>Nadia, Pin-741404</p>
+            </center>
           </div>
           <div className='col-6 text-center'>
           <h2 style={{color:"white"}}>Message Us</h2>
@@ -54,6 +56,7 @@ const ContactForm = () => {
                     <input
                       type='text'
                       name='name'
+                      
                       required
                       {...register('name', {
                         required: { value: true, message: 'Please enter your name' },
@@ -124,6 +127,8 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Message'
                     ></textarea>
+
+                    
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
