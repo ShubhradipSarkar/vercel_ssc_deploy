@@ -86,7 +86,7 @@ function Navbar1(props) {
         </Container>
         
       </Navbar>
-      <div className='nameatfront'><h4 className='nameofnav'>Hello {userName}</h4> <Button href="/login" className="signbutton">sign in</Button> </div>
+      <div className='nameatfront'><h4 className='nameofnav'>Hello {userName}</h4>   <Link to="/login" ><button type="button" variant="dark" className='signbutton' >Sign in</button></Link> </div>
       
     </div>
   );

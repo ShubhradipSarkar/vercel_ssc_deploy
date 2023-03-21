@@ -339,3 +339,13 @@ body {
     font-family: sans-serif;
   
 }
+.signbutton{
+  box-sizing: border-box;
+  width: 80px;
+  height: 40px;
+  font-weight: 500;
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
+  border-radius: 13px;
+}
