@@ -18,10 +18,38 @@ function Group(){
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
                 <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
-                <People name="rajdeep" designation="sompadok"  dp={errpic} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>
             <div className="peeps">
+                <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
+                
+            </div>
+            <div className="peeps">
+                <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
+                
+            </div>
+            <div className="peeps">
+                <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
+                
+            </div>
+            <div className="peeps">
+                <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
+                
+            </div>
+            {/* <div className="peeps">
                 <People name="sankho" designation="project co" dp={errpic} className="indi"/>
                 <People name="Soumyajit" designation="junior co."dp={errpic} className="indi"/>
                 <People name="tamo" designation="lol" dp={errpic} className="indi"/>
@@ -46,7 +74,7 @@ function Group(){
             <div>
             <People name="sankho" designation="project co" dp={errpic} className="indi"/>
             <People name="sankho" designation="project co" dp={errpic} className="indi"/>
-            </div>
+            </div> */}
 
         </div>
              
