@@ -9,7 +9,7 @@ import Login from './Login'
 import Signup from './Signup'
 import ViewBoy from './ViewBoy'
 import Donate from './Donate'
-import Photogalary from './Photogalary'
+import Photogalary from './Photogallery'
 import Contacthelpdesk from './Contacthelpdesk'
 
 function Uapp(){

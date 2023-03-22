@@ -11,9 +11,11 @@ import Movement from "./Movements";
 import "./style.css";
 import { auth } from "./firebase";
 import { useEffect, useState } from "react";
-import PresentMovement from "./PresentMov";
-import HistoryofMovement from "./HistoryofMovements";
-import Photogalary from "./Photogalary";
+
+import PresentMovement from './PresentMov';
+import HistoryofMovement from './HistoryofMovements';
+import Photogalary from './Photogallery';
+
 import Card from "./Cards";
 import image1 from "../../src/images/IMG_2759.jpg";
 

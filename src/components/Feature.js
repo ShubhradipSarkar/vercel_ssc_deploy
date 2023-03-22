@@ -7,7 +7,7 @@ function Feature(){
     console.log(feature);
     return(
         <div>
-            lolol
+            lolollo
         </div>
     );
 }
