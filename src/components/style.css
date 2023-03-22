@@ -357,3 +357,11 @@ body {
   padding: 50px;
   border-radius: 20px;
 }
+@media (max-width: 900px) {
+  .carousel {
+    width:auto;
+    height:auto;
+    
+    margin: 20px;
+  }
+}
