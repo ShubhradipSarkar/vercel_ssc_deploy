@@ -131,7 +131,7 @@
 //             <MDBIcon color='secondary' fab icon='github' />
 //           </a>
 //         </div>
-       
+
 //     </MDBFooter>
 //   );
 // }
@@ -145,32 +145,32 @@ import {
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import {AiFillFacebook,AiOutlineYoutube} from 'react-icons/ai';
-import {BsInstagram,BsTwitter} from 'react-icons/bs'
+import { AiFillFacebook, AiOutlineYoutube } from 'react-icons/ai';
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
 
 export default function App() {
   return (
     <MDBFooter className='bg-dark text-center text-white position-relative bottom-0'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <AiFillFacebook size='2em'/>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/profile.php?id=100064559477606' role='button'>
+            <AiFillFacebook size='2em' />
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            
-            <BsInstagram size='2em'/>
+
+            <BsInstagram size='2em' />
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <BsTwitter size='2em'/>
-            
+            <BsTwitter size='2em' />
+
           </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <AiOutlineYoutube size='2em'/>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.youtube.com/@santipurscienceclub3548' role='button'>
+            <AiOutlineYoutube size='2em' />
           </MDBBtn>
 
-          
+
         </section>
       </MDBContainer>
 
