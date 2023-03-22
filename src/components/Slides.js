@@ -9,7 +9,7 @@ import skybg from '../../src/images/pgbg.jpg';
 
 function UncontrolledExample() {
   return (
-    <Carousel>
+    <Carousel variant="light">
       
       <Carousel.Item>
         <img
