@@ -134,22 +134,22 @@ function Navbar1(props) {
           <div className=" w-100  p-5 mb-4 d-flex justify-content-between">
             <h4 className="nameofnav">Hello {userName}</h4>
             <Link to="/">
-              <button
+              <Button
                 type="button"
                 variant="dark"
                 className="btn btn-primary btn-md right-0"
                 onClick={() => auth.signOut()}
               >
                 SignOut
-              </button>
+              </Button>
             </Link>{" "}
           </div>
         ) : (
           <div className="w-100 p-4 mb-2 ">
           <Link to="/login" className="mb-4">
-            <button type="button" variant="dark" className="btn btn-primary btn-md m-3 float-end">
+            <Button type="button" variant="dark" className="btn btn-primary btn-md m-3 float-end">
               Sign in
-            </button>
+            </Button>
           </Link>
           </div>
         )}
