@@ -43,7 +43,7 @@ const ContactForm = () => {
           <div className="col-5 d-flex justify-center flex-column align-items-center ">
             <center>
              <h2 style={{color:"white"}}>Address</h2>
-             <p style={{color:"white"}}>Tapati Bhawan <br/> 12/1 Gourhari Thakur Lane<br/> Duttapara<br/> po+ps-Santipur <br/>Nadia, Pin-741404</p>
+             <p style={{color:"white"}}>Tapati Bhawan <br/> 12/1 Gourhari Thakur Lane<br/> Duttapara<br/> PO+PS-Santipur <br/>Nadia, Pin-741404</p>
             </center>
           </div>
           <div className='col-6 text-center'>
