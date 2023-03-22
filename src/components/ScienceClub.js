@@ -89,7 +89,7 @@ function ScienceClub(){
 
             {/* CARDS */}
             
-            <center><div><Card picture = {image1} text="this is the text of the card gdfvabsFAwJWJiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii" title="establishment"/></div></center>
+            {/* <center><div><Card picture = {image1} text="this is the text of the card gdfvabsFAwJWJiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii" title="establishment"/></div></center> */}
             
             <h1>science club</h1>
             <h1>science club</h1>
