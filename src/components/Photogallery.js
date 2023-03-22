@@ -7,7 +7,7 @@ import {
     MDBRow,
   } from 'mdb-react-ui-kit';
 
-function Photogalary() {
+function Photogallery() {
   return (
     <div>
       <Navbar1 /> 
@@ -61,4 +61,4 @@ function Photogalary() {
     </div>
   );
 }
-export default Photogalary;
+export default Photogallery;

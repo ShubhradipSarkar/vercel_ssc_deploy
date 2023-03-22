@@ -9,7 +9,7 @@ import Login from './Login'
 import Signup from './Signup'
 import ViewBoy from './ViewBoy'
 import Donate from './Donate'
-import Photogalary from './Photogallery'
+import Photogallery from './Photogallery'
 import Contacthelpdesk from './Contacthelpdesk'
 import Card_movements from './Card_movements'
 import image1 from "../../src/images/IMG_2759.jpg";
@@ -29,7 +29,7 @@ function Uapp(){
                 <Route  path='/ViewBoy' element={<ViewBoy/>}/>
                 <Route  path='/donate' element={<Donate/>}/>
                 <Route  path='/join' element={<Donate/>}/>
-                <Route  path='/photogalary' element={<Photogalary/>}/>
+                <Route  path='/photogallery' element={<Photogallery/>}/>
                 <Route  path='/contact' element={<Contacthelpdesk/>}/>
                 <Route  path='/contact' element={<Contacthelpdesk/>}/>
                 <Route  path='/poribesh' element={<Card_movements image={image1} title="card " text1="My name is ChatGPT, and I am an  AI 

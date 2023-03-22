@@ -109,7 +109,7 @@ function Navbar1(props) {
               <Link to="" className="navElements">
                 <HistoryofMovement className="w-100" />
               </Link>
-              <Link to="/photogalary" className="navElements">
+              <Link to="/photogallery" className="navElements">
                 <Button type="button" variant="primary" className="w-100">
                   ফটো গ্যালারি <br /> PHOTO GALLERY
                 </Button>
