@@ -145,6 +145,8 @@ import {
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
+import {AiFillFacebook,AiOutlineYoutube} from 'react-icons/ai';
+import {BsInstagram,BsTwitter} from 'react-icons/bs'
 
 export default function App() {
   return (
@@ -152,27 +154,23 @@ export default function App() {
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='facebook-f' />
+            <AiFillFacebook size='2em'/>
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
+            
+            <BsInstagram size='2em'/>
           </MDBBtn>
 
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
+            <BsTwitter size='2em'/>
+            
           </MDBBtn>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='instagram' />
+            <AiOutlineYoutube size='2em'/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
+          
         </section>
       </MDBContainer>
 
