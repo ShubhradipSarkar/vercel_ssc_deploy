@@ -2,7 +2,7 @@ import React from 'react'
 import People from './People';
 import './style.css'
 import soumya from '../../src/images/soumya.jpg';
-import riki from '../../src/images/menddishu.jpg';
+import riki from '../../src/images/riki1.jpg';
 import sankho from '../../src/images/sankho.jpg';
 import errpic from '../../src/images/errpic.png';
 // import { AppProvider } from './context/Peopledata';
