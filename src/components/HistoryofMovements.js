@@ -11,7 +11,7 @@ function HistoryofMovement() {
         <Dropdown.Menu variant="white">
       
       <Link to="/poribesh" style={{ textDecoration: 'none' }}><Dropdown.Item as="button" variant='dark'>2020 এর আন্দোলন</Dropdown.Item></Link>
-      <Link to="/join" style={{ textDecoration: 'none' }}><Dropdown.Item as="button">2019 এর আন্দোলন</Dropdown.Item></Link>
+      <Link to="/blank" style={{ textDecoration: 'none' }}><Dropdown.Item as="button">2019 এর আন্দোলন</Dropdown.Item></Link>
       <Link to="/join" style={{ textDecoration: 'none' }}><Dropdown.Item as="button">2018 এর আন্দোলন</Dropdown.Item></Link>
       <Link to="/join" style={{ textDecoration: 'none' }}><Dropdown.Item as="button">2017 এর আন্দোলন</Dropdown.Item></Link>
       <Link to="/join" style={{ textDecoration: 'none' }}><Dropdown.Item as="button">2016 এর আন্দোলন</Dropdown.Item></Link>

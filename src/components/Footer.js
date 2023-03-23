@@ -150,7 +150,7 @@ import { BsInstagram, BsTwitter } from 'react-icons/bs'
 
 export default function App() {
   return (
-    <MDBFooter className='bg-dark text-center text-white position-relative bottom-0'>
+    <MDBFooter className='footer'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/profile.php?id=100064559477606' role='button'>
