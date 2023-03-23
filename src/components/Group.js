@@ -13,39 +13,53 @@ function Group(){
         
         <div className="peepgroup">
             
-            <center ><div className='leafx'><h1>Meet <span className='span'>The</span>Team</h1> <div><img src={require('../../src/images/leaf.png')} alt="" className='leaf'/></div></div> </center>
+            <div className='leafx'><h1 style={{color:'white'}}>Meet <span className='span'>The</span>Team</h1> <img src={require('../../src/images/coca-leaves.png')} alt="" className='leaf' /></div> 
             <div className="peeps">
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
-                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
                 <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>
             <div className="peeps">
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
-                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
                 <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>
             <div className="peeps">
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
-                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
+                
+            </div>
+            <div className="peeps">
+                <People name="Soumyajit" designation="Junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="Junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="Junior co." dp={sankho} className="indi"/>
+                <People name="Raghunath" designation="Editor SSC"  dp={errpic} className="indi"/>
+                
+            </div>
+            <div className="peeps">
+                <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
+                <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
                 <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>
             <div className="peeps">
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
-                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
                 <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>
             <div className="peeps">
                 <People name="Soumyajit" designation="junior co." dp={soumya} className="indi" />
                 <People name="Shubhradip" designation="junior co."dp={riki} className="indi" id="http://localhost:4000/mens/63dbc30e111eb24d96a42083"/>
-                <People name="Sankho" designation="Project co." dp={sankho} className="indi"/>
+                <People name="Sankho" designation="junior co." dp={sankho} className="indi"/>
                 <People name="Raghunath" designation="Editor"  dp={errpic} className="indi"/>
                 
             </div>

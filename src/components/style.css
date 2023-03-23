@@ -124,7 +124,7 @@ body {
 .img{
   width:40%;
   margin:5%;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .hello{
@@ -134,13 +134,13 @@ body {
   color: green;
 }
 .card-name{
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bolder;
   color: #ffffff;
   margin-left: 5%;
 }
 .card-desig{
-  font-weight: 300;
+  
   font-style: italic;
   margin-left: 5%;
   color: green;
@@ -150,14 +150,17 @@ body {
   flex-direction: row;
 }
 .leafx{
-  
+  justify-content: center;
+  display: flex;
   flex-direction: row;
 }
 
 .leaf{
-  width: 8%;
-  height: 8%;
+  width: 45px;
+  height: 45px;
 }
+
+
 
 .form{
   margin-inline: 10%;
@@ -415,9 +418,15 @@ body {
   .card-image {
     flex-direction: column;
   }
-
+  .card-name{
+    font-size:small;
+  }
   .card-text {
     margin-top: 0rem;
+  }
+  .leaf{
+    height:30px;
+    width: 30px;
   }
 }
 

@@ -19,8 +19,8 @@ function People(props){
             <img src={props.dp} alt="dp"  className="img w-100 h-50"/>
             <center></center>
             <div className='leafy'><p className='card-name'>{props.name}</p> 
-            <img src={require('../../src/images/leaf.png')} alt="" className='leaf'/></div>
-            <p className='card-desig'>{props.designation}</p>
+            </div>
+            <p className='card-desig' style={{fontWeight:'bold'}}>{props.designation}</p>
             <center><a href={props.id}>
         <Button variant='primary' size='md' className='align-items-center w-100'>View details</Button>
       </a></center>
