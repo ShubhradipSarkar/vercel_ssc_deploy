@@ -295,7 +295,7 @@ body {
   letter-spacing: 0.062rem;
   margin-bottom: 1.875rem;
   border: none;
-  border-bottom: 0.065rem solid #fff;
+  border-bottom: 0.065rem solid rgb(255, 255, 255);
   outline: none;
   background: transparent;
 }
@@ -360,6 +360,7 @@ body {
   height: 300px;
   padding: 50px;
   border-radius: 20px;
+  
 }
 @media (max-width: 900px) {
   .carousel {
@@ -367,6 +368,14 @@ body {
     height:auto;
     
     margin: 20px;
+  }
+  .col-5{
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    height: 300px;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px;
   }
 }
 
