@@ -17,6 +17,7 @@ function People(props){
         <div className="people d-flex flex-column align-item-center">
             
             <img src={props.dp} alt="dp"  className="img w-100 h-50"/>
+            {/* <img src={props.dp} alt="dp"  className="dp_of_members"/> */}
             <center></center>
             <div className='leafy'><p className='card-name'>{props.name}</p> 
             </div>
