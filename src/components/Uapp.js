@@ -14,6 +14,9 @@ import Contacthelpdesk from './Contacthelpdesk'
 import Card_movements from './Card_movements'
 import image1 from "../../src/images/IMG_2759.jpg";
 import Blank from './Blank';
+import Work2006 from './work2006'
+import Work2007 from './work2007'
+
 
 function Uapp(){
     return(
@@ -40,6 +43,8 @@ function Uapp(){
 
 Despite being an AI language model, I am continuously learning" text3 = "and improving my abilities through a process called deep learning. This involves analyzing and processing vast amounts of data to recognize patterns"/>}/>
                 <Route  path='/blank' element={<Blank/>}/>
+                <Route  path='/work2006' element={<Work2006/>}/>
+                <Route  path='/work2007' element={<Work2007/>}/>
             </Routes>
             
             
