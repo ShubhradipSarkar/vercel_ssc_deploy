@@ -17,6 +17,7 @@ import image6 from '../../src/images/IMG_2756.jpg';
 import skybg from '../../src/images/pgbg.jpg';
 import LoginName from "./LoginName";
 import Slides from './Slides';
+import Hovercover from "./DrpdwnContent";
 // import About from "./About";
 // import OurPurpose from "./OurPurpose";
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -86,7 +87,7 @@ function ScienceClub(){
             {/* {console.log(userName)} */}
             {/* <h1>{useremail}</h1> */}
             <h1>science club</h1>
-
+            <Hovercover/>
             {/* CARDS */}
             
             {/* <center><div><Card picture = {image1} text="this is the text of the card gdfvabsFAwJWJiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii" title="establishment"/></div></center> */}

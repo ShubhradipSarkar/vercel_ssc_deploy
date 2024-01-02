@@ -16,6 +16,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={image1}
           alt="First slide"
+          style={{borderRadius:'10px'}}
         />
         {/* <Carousel.Caption>
           <h3>First slide label</h3>
@@ -27,6 +28,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={image2}
           alt="Second slide"
+          style={{borderRadius:'10px'}}
         />
 
         {/* <Carousel.Caption>
@@ -39,6 +41,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={image3}
           alt="Third slide"
+          style={{borderRadius:'10px'}}
         />
 
         {/* <Carousel.Caption>
@@ -56,6 +59,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={image4}
           alt="Third slide"
+          style={{borderRadius:'10px'}}
         />
 
         {/* <Carousel.Caption>

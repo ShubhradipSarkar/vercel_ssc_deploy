@@ -8,6 +8,7 @@ const API="http://localhost:4000/mens";
 function People(props){
     const navigate=useNavigate();
     const view=()=>{
+        
         console.log(props.name);
         // <ViewBoy/>
         // navigate(props.id);
@@ -23,7 +24,7 @@ function People(props){
             </div>
             <p className='card-desig' style={{fontWeight:'bold'}}>{props.designation}</p>
             <center><a href={props.id}>
-        <Button variant='primary' size='md' className='align-items-center w-100'>View details</Button>
+        <Button variant='primary' size='md' className='align-items-center w-100' onClick={view}>View details</Button>
       </a></center>
       
         </div>

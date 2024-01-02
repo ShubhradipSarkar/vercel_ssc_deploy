@@ -67,7 +67,7 @@ function Login(){
     }
     return(
         
-        <div >
+        <div className='loginbox'>
             {console.log(user)}
             <center>
 

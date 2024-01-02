@@ -22,7 +22,7 @@ function Join(){
                 <form action="https://formsubmit.co/el/tiwame" method="POST" />
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter Name" />
+                <Form.Control type="text" placeholder="Enter Name"/>
                 
             </Form.Group>
 

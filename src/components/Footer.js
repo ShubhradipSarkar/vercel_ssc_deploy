@@ -175,7 +175,7 @@ export default function App() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        Address : Tapati Bhawan, 12/1 Gourhari Thakur Lane, Duttapara, Santipur, Nadia, Pin-741404
+        Address : Tapati Bhawan, 12/1 Gourhari Thakur Lane, Duttapara, Santipur, Nadia, Pin-741404<br/>Developer's contact: shubhradipsarkar@gmail, contact number: +6294537321, NIT Durgapur '24, (junior coordinator) Santipur Science Club
         {/* <a className='text-white' href='https://mdbootstrap.com/'>
            3
         </a> */}

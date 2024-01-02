@@ -40,6 +40,7 @@ function Navbar1(props) {
               <h1 style={{ color: "black", margin: "3px" }}>
                 {" "}
                 শান্তিপুর সায়েন্স ক্লাব
+                
               </h1>{" "}
               <Link to="/" style={{ textDecoration: "none" }}>
                 <div className="name">

@@ -437,6 +437,9 @@ body {
     height:30px;
     width: 30px;
   }
+  .loginbox{
+    margin: 10px;
+  }
 }
 
 .footer{
@@ -448,6 +451,7 @@ body {
   bottom: 0;
   left:0;
   width: 100%;
+  flex-shrink: 0;
 
 }
 .minheight{
@@ -467,3 +471,5 @@ body {
   height: 100;
   border-radius: 15px;
 }
+
+
